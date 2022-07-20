@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A2-Deformable</title>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.141.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.141.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.141.0/examples/js/misc/GPUComputationRenderer.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <canvas class="webgl"></canvas>
+
+    <div class="ui">
+        <div class="buttons">
+            <button type="button" class="right">→</button>
+            <button type="button" class="left">←</button>
+            <button type="button" class="up">↑</button>
+            <button type="button" class="down">↓</button>
+            <button type="button" class="ccw">↻</button>
+            <button type="button" class="acw">↺</button>
+        </div>
+        <input type="range" class="k" min="200" max="600" value="300">
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+
+</html>
